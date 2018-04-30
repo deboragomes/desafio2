@@ -1,0 +1,81 @@
+.header{
+	height: 35%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+@media (max-width: 640px){
+    .header{
+          height: 100%;
+    }
+}
+.paragraph--header{
+	width: 80%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.title_header{
+	font-weight: bold;
+	color: black;
+}
+.paragraph--header{
+	color:#292929;
+}
+.main{
+	height: 140%;
+}
+@media (max-width: 640px){
+    .main{
+          height: 100%;
+    }
+}
+.cashier_secao--principal{
+	height: 60%;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+.cashier_navbar{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 13px;
+	width: 20%;
+	padding:10px;
+	margin-top: 28%;
+}
+.navbar{
+	text-decoration:none; 
+	padding: 8px;
+	color:#292929;
+	font-size: 13px;
+}
+.caixa--image_secao--principal{
+	margin-left: 10%;
+}
+.image_secao--principal{
+	width: 70%;
+	border:10px solid pink;
+}
+.p_secao--principal{
+	margin-left: 10%;
+}
+.rodape{
+	background-image: url(assets/imagem2.jpeg);
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.cashier_rodape{
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+.botao_rodape{
+	border-radius: 0;
+	width: 128px;
+	height: 45px;
+	color: #292929;
+	background-color: white;
+	margin-left: 7px;
+}
